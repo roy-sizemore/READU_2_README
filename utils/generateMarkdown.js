@@ -102,7 +102,7 @@ function renderLicenseLink(license) {
 // returns are placeholders - this code isn't finished
 function renderLicenseSection(license) {
   fs.writeToFile(README, data => {
-    if (data.license === "I'm not using a license for this project") {
+    if (data.license === "N/A") {
       return '';
     } else {
       return '## License Information'
