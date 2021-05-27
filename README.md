@@ -2,7 +2,7 @@
 
   ## **Description**
   
-  This project is now done
+  This project is done
   
   ## **Table of Contents**
   
@@ -22,17 +22,17 @@
   
   npm run install
   
-  ## Licensing (if needed)
+  ## Licensing (if available)
   
   See license link for details
   
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
   
-  [MIT](https://opensource.org/licenses/MIT)
+  [BSD 2-Clause Simplified](https://opensource.org/licenses/BSD-2-Clause)
     
   ## Contributing
   
-  Send me an email and I'll add you as a contributor
+  Email me and I'll add you as a contributor
   
   ## Testing
   
@@ -42,7 +42,7 @@
     
   ## Contact
   
-  Email: name@email.com
+  Email: username@email.com
 
   GitHub: [user-name](https://github.com/user-name/)
 

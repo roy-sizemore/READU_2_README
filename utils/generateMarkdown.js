@@ -115,24 +115,24 @@ const generateMarkdown = (data) => {
   
   ${data.installation}
   
-  ## Licensing (if available)
+  ## **Licensing** (if available)
   
   ${data.usage}
   
   ${renderLicenseBadge(data.license)}\n  
   ${renderLicenseSection(data.license)}
     
-  ## Contributing
+  ## **Contributing**
   
   ${data.contributing}
   
-  ## Testing
+  ## **Testing**
   
   To test **${data.title}**, run the following command(s):
   
   ${data.tests}
     
-  ## Contact
+  ## **Contact**
   
   Email: ${data.email}\n
   GitHub: [${data.username}](https://github.com/${data.username}/)
