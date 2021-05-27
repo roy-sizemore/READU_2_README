@@ -43,53 +43,46 @@ const renderLicenseBadge = (license) => {
 };
 
 // Function to render the license link
-const renderLicenseLink = (license) => {
-  return `
-  [License](#license)
-  `;
-}
+const renderLicenseLink = (license) => `[License](#license)`;
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-
-// returns are placeholders - this code isn't finished
+// Function to render external link to license
 function renderLicenseSection(license) {
   switch (license) {
     case 'Apache 2.0':
-      return '(https://opensource.org/licenses/Apache-2.0)';
+      return '[Apache 2.0](https://opensource.org/licenses/Apache-2.0)';
 
     case 'GNU GPL 3.0':
-      return '(https://www.gnu.org/licenses/gpl-3.0)'
+      return '[GNU GPL 3.0](https://www.gnu.org/licenses/gpl-3.0)'
 
     case 'MIT':
-      return '(https://opensource.org/licenses/MIT)'
+      return '[MIT](https://opensource.org/licenses/MIT)'
 
     case 'BSD 2-Clause Simplified':
-      return '(https://opensource.org/licenses/BSD-2-Clause)'
+      return '[BSD 2-Clause Simplified](https://opensource.org/licenses/BSD-2-Clause)'
 
     case 'BSD 3-Clause New/Revised':
-      return '(https://opensource.org/licenses/BSD-3-Clause)'
+      return '[BSD 3-Clause New/Revised](https://opensource.org/licenses/BSD-3-Clause)'
 
     case 'Boost 1.0':
-      return '(https://www.boost.org/LICENSE_1_0.txt)'
+      return '[Boost 1.0](https://www.boost.org/LICENSE_1_0.txt)'
 
     case 'CC0 1.0':
-      return '(http://creativecommons.org/publicdomain/zero/1.0/)'
+      return '[CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/)'
 
     case 'Eclipse 2.0':
-      return '(https://opensource.org/licenses/EPL-2.0)'
+      return '[Eclipse 2.0](https://opensource.org/licenses/EPL-2.0)'
 
     case 'GNU Affero 3.0':
-      return '(https://img.shields.io/badge/License-AGPL%20v3-blue.svg)'
+      return '[GNU Affero 3.0](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)'
 
     case 'GNU GPL 2.0':
-      return '(https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)'
+      return '[GNU GPL 2.0](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)'
 
     case 'Mozilla 2.0':
-      return '(https://opensource.org/licenses/MPL-2.0)'
+      return '[Mozilla 2.0](https://opensource.org/licenses/MPL-2.0)'
 
     case 'Unlicense':
-      return '(http://unlicense.org/)'
+      return '[Unlicense](http://unlicense.org/)'
 
     default:
       return '';
@@ -109,7 +102,7 @@ const generateMarkdown = (data) => {
   
   1. ### [Installation](#installation)
   
-  2. ### [Licensing](#licensing)
+  2. ### [Licensing](${renderLicenseLink(data.license)})
   
   3. ### [Contributing](#contributing)
   
@@ -128,7 +121,6 @@ const generateMarkdown = (data) => {
   ${data.usage}
   
   ${renderLicenseBadge(data.license)}
-  ${renderLicenseLink(data.license)}
   ${renderLicenseSection(data.license)}
     
   ## Contributing
