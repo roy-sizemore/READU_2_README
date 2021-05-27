@@ -1,8 +1,8 @@
-# **Project Done**
+# **READU2README**
 
   ## **Description**
   
-  This project is done
+  READU2README is a README.md generator. This is homework for week 9 of the full stack OSU bootcamp.
   
   ## **Table of Contents**
   
@@ -18,32 +18,32 @@
   
   ## **Installation**
   
-  To install **Project Done**, run the following command(s):
+  To install **READU2README**, run the following command(s):
   
-  npm run install
+  If you have the package.json file included with this app, simply run "npm install" Otherwise, run "npm init" and "npm install fs inquirer"
   
-  ## Licensing (if available)
+  ## **Licensing** (if available)
   
-  See license link for details
+  This project is available for use under the MIT license
   
-  [![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
-  [BSD 2-Clause Simplified](https://opensource.org/licenses/BSD-2-Clause)
+  [MIT](https://opensource.org/licenses/MIT)
     
-  ## Contributing
+  ## **Contributing**
   
-  Email me and I'll add you as a contributor
+  Contact me through GitHub
   
-  ## Testing
+  ## **Testing**
   
-  To test **Project Done**, run the following command(s):
+  To test **READU2README**, run the following command(s):
   
-  npm run test
+  There are no tests included in this project
     
-  ## Contact
+  ## **Contact**
   
-  Email: username@email.com
+  Email: email@email.com
 
-  GitHub: [user-name](https://github.com/user-name/)
+  GitHub: [roy-sizemore](https://github.com/roy-sizemore/)
 
   
