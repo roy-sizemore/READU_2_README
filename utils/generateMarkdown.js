@@ -101,7 +101,7 @@ const generateMarkdown = (data) => {
   
   1. ### [Installation](#installation)
   
-  2. ### [Licensing](${renderLicenseLink(data.license)})
+  2. ### ${renderLicenseLink(data.license)}
   
   3. ### [Contributing](#contributing)
   
@@ -115,11 +115,11 @@ const generateMarkdown = (data) => {
   
   ${data.installation}
   
-  ## Licensing (if needed)
+  ## Licensing (if available)
   
   ${data.usage}
   
-  ${renderLicenseBadge(data.license)}
+  ${renderLicenseBadge(data.license)}\n  
   ${renderLicenseSection(data.license)}
     
   ## Contributing
@@ -134,7 +134,7 @@ const generateMarkdown = (data) => {
     
   ## Contact
   
-  Email: ${data.email}
+  Email: ${data.email}\n
   GitHub: [${data.username}](https://github.com/${data.username}/)
 
   `;

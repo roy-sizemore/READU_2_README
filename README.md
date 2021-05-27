@@ -1,14 +1,14 @@
-# **This New Project**
+# **Project Done**
 
   ## **Description**
   
-  It's a new project
+  This project is now done
   
   ## **Table of Contents**
   
   1. ### [Installation](#installation)
   
-  2. ### [Licensing](#licensing)
+  2. ### [License](#license)
   
   3. ### [Contributing](#contributing)
   
@@ -18,33 +18,32 @@
   
   ## **Installation**
   
-  To install **This New Project**, run the following command(s):
+  To install **Project Done**, run the following command(s):
   
   npm run install
   
   ## Licensing (if needed)
   
-  MIT license. See license link for details
+  See license link for details
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
-  [License](#license)
-  
-  (https://opensource.org/licenses/MIT)
+  [MIT](https://opensource.org/licenses/MIT)
     
   ## Contributing
   
-  Email me and I'll add you as a contributor
+  Send me an email and I'll add you as a contributor
   
   ## Testing
   
-  To test **This New Project**, run the following command(s):
+  To test **Project Done**, run the following command(s):
   
   npm run test
     
   ## Contact
   
-  Email: email@email.com
-  GitHub: [roy-sizemore](https://github.com/roy-sizemore/)
+  Email: name@email.com
+
+  GitHub: [user-name](https://github.com/user-name/)
 
   
