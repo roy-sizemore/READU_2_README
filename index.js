@@ -1,9 +1,9 @@
-// TODO: Include packages needed for this application
+// Required packages. Run npm init -y and npm install <package name> to install
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
 
-// TODO: Create an array of questions for user input
+// Questions that will be used in inquirer function
 const questions = [
     {
         name: 'username',
@@ -67,7 +67,7 @@ const questions = [
     }
 ];
 
-// TODO: Create a function to write README file
+// Function to write README.md. Requires fs
 const writeToFile = (fileName, data) => {
     return fs.writeFile(fileName, data, (err) => {
         if (err) {
@@ -76,8 +76,8 @@ const writeToFile = (fileName, data) => {
     });
 };
 
-// TODO: Create a function to initialize app
+// Function to run inquirer prompt. Requires inquirer
 const init = () => inquirer.prompt(questions).then(answers => writeToFile('README.md', generateMarkdown(answers)));
 
-// Function call to initialize app
+// Runs app
 init();

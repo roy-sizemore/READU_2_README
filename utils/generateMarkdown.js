@@ -45,7 +45,7 @@ const renderLicenseBadge = (license) => {
 // Function to render the license link
 const renderLicenseLink = (license) => `[License](#license)`;
 
-// Function to render external link to license
+// Function to render external link to license based on question answer
 function renderLicenseSection(license) {
   switch (license) {
     case 'Apache 2.0':
@@ -90,7 +90,6 @@ function renderLicenseSection(license) {
 };
 
 // Markdown generator. Used in index.js to create README content based on answers to inquirer questions
-
 const generateMarkdown = (data) => {
   return `# **${data.title}**
 
