@@ -49,20 +49,20 @@ const questions = [
         name: 'license',
         message: 'Which license are you using for this project?',
         type: 'list',
-        choices: ['MIT',
+        choices: [
             'Apache 2.0',
-            'GNU 3.0',
+            'GNU GPL 3.0',
+            'MIT',
             'BSD 2-Clause Simplified',
             'BSD 3-Clause New/Revised',
             'Boost 1.0',
-            'Creative Commons Zero Universal 1.0',
-            'Eclipse Public 2.0',
+            'CC0 1.0',
+            'Eclipse 2.0',
             'GNU Affero 3.0',
-            'GNU General Public 2.0',
-            'GNU Lesser General Public 2.1',
-            'Mozilla Public 2.0',
+            'GNU GPL 2.0',
+            'Mozilla 2.0',
             'Unlicense',
-            "N/A"
+            'N/A (Not Recommended)'
         ]
     }
 ];
