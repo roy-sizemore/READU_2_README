@@ -1,4 +1,4 @@
-// Required packages. Run npm init -y and npm install <package name> to install
+// Required packages and file. If you have the package.json file included with this app run 'npm install' or run 'npm init' and 'npm install fs inquirer'
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
@@ -67,7 +67,7 @@ const questions = [
     }
 ];
 
-// Function to write README.md. Requires fs
+// Function to write README.md file. Requires fs
 const writeToFile = (fileName, data) => {
     return fs.writeFile(fileName, data, (err) => {
         if (err) {
@@ -76,7 +76,7 @@ const writeToFile = (fileName, data) => {
     });
 };
 
-// Function to run inquirer prompt. Requires inquirer
+// Function to run inquirer prompt. Requires inquirer and ./utils/generateMarkdown.js
 const init = () => inquirer.prompt(questions).then(answers => writeToFile('README.md', generateMarkdown(answers)));
 
 // Runs app
