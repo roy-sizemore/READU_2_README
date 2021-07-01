@@ -1,8 +1,8 @@
-# **READU2README**
+# **I Was There!**
 
   ## **Description**
   
-  READU2README is a README.md generator. This is homework for week 9 of the full stack OSU bootcamp.
+  I Was There! allows you to upload event attendee data, input that data into an event certificate from template, email the attendeesthe certificate and review a report in a simple, automated solution. IWT! provides the user with a clean, easy-to-use experience they can implement with minimal training.
   
   ## **Table of Contents**
   
@@ -18,13 +18,13 @@
   
   ## **Installation**
   
-  To install **READU2README**, run the following command(s):
+  To install **I Was There!**, run the following command(s):
   
-  If you have the package.json file included with this app, simply run "npm install" Otherwise, run "npm init" and "npm install fs inquirer"
+  No installation required. Visit: 
   
   ## **Licensing** (if available)
   
-  This project is available for use under the MIT license
+  
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
@@ -32,17 +32,17 @@
     
   ## **Contributing**
   
-  Contact me through GitHub
+  N/A
   
   ## **Testing**
   
-  To test **READU2README**, run the following command(s):
+  To test **I Was There!**, run the following command(s):
   
-  There are no tests included in this project
+  N/A
     
   ## **Contact**
   
-  Email: email@email.com
+  Email: sizemore.coding@gmail.com
 
   GitHub: [roy-sizemore](https://github.com/roy-sizemore/)
 
