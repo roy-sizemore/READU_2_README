@@ -39,7 +39,7 @@ const renderLicenseBadge = (license) => {
 
     default:
       return '';
-  }
+  };
 };
 
 // Function to render the license link
@@ -86,7 +86,7 @@ function renderLicenseSection(license) {
 
     default:
       return '';
-  }
+  };
 };
 
 // Markdown generator. Used in index.js to create README content based on answers to inquirer questions
