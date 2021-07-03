@@ -89,7 +89,7 @@ function renderLicenseSection(license) {
   };
 };
 
-// Markdown generator. Used in index.js to create README content based on answers to inquirer questions
+// Markdown generator call in index.js to create README content based on answers to inquirer questions
 const generateMarkdown = (data) => {
   return `# **${data.title}**
 
